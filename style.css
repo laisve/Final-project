@@ -1,42 +1,32 @@
-.navbar-inverse {
-    background-color: DarkSlateBlue;
+#map {
+    width: 100%;
+    height: 400px;
 }
-.navbar-inverse .navbar-brand {
-    color: white;
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
-.navbar-brand {
-    float: left;
-    font-size: 22px;
+#searchInput {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 50%;
 }
-.navbar-nav {
-    float: left;
+#searchInput:focus {
+    border-color: #4d90fe;
 }
-/* layout.css Style */
-.upload-drop-zone {
-  height: 100px;
-  border-width: 2px;
-  margin-bottom: 20px;
+/* iki cia mapso stilius */
+#geoData {
+    text-align: left;
 }
 
-/* skin.css Style*/
-.upload-drop-zone {
-  color: #ccc;
-  border-style: dashed;
-  border-color: #ccc;
-  line-height: 100px;
-  text-align: center;
-}
-.upload-drop-zone.drop {
-  color: #222;
-  border-color: #222;
-}
-.col-sm-9 .well .well {
-    background-color: white;
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-footer {
-    background-color: #555;
-    color: white;
-    padding: 15px;
-    }
