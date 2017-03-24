@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Geriausias Wifi</title>
+  <title>Vilniaus Wifi</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -33,7 +33,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Geriausias viešas Wifi</a>
+      <a class="navbar-brand" href="#">Geriausias viešas Wifi Vilniuje</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -65,12 +65,14 @@
   <h3>Top vietos</h3><br>
   <div class="row">
     <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>MKIC</p>
+      <img src="https://lh6.googleusercontent.com/-SuzGiLNvHyE/VE-XL3k28TI/AAAAAAAANwk/_lveDhEwVmMtLuWsWCJNDVmNOswYmfSIgCJkC/s408-k-no/" class="img-responsive" style="width:100%" alt="MKIC">
+      <p>Saulėtekio al. 5, Vilnius 10222</p>
     </div>
     <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Mažvydo biblioteka</p>
+      <img src="https://lh3.googleusercontent.com/-GtqXumElrUM/V88kgKcObcI/AAAAAAAAYCM/IdmpfXbJwaUjKeVSPUSc0uUV01vB_MygQCJkC/s408-k-no/" class="img-responsive" style="width:100%" alt="Mažvydo biblioteka">
+      <p>Gedimino pr. 51, Vilnius 01109</p>
     </div>
     <div class="col-sm-3"> 
       <p>Some text..</p>
@@ -113,14 +115,14 @@
 <script>
 function initMap() {
     var locations = [
-        ['Location 1', 54.687, 25.279, 3],
+        ['MKIC', 54.723, 25.328, 3],
         ['Location 2', 54.682, 25.280, 2],
-        ['Location 3', 54.680, 25.281, 1]
+        ['Mažvydo biblioteka', 54.690844, 25.263554, 1]
     ];
      
     var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 54.687, lng: 25.279},
-      zoom: 14
+      zoom: 12
     });
     
    for(i = 0; i < locations.length; i++) {
